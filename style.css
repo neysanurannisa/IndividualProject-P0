@@ -4,10 +4,10 @@
 }
 
 body {
-    background-color: rgb(177, 244, 118);
+    background-color: rgb(92, 121, 249);
     width: 100%;
     height: 100vh;
-    display: flex;
+    color: aliceblue;
 }
 
 .navbar {
@@ -17,4 +17,12 @@ body {
     justify-content: end;
     gap: 10px;
     cursor: pointer;
+}
+
+
+.contact {
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
